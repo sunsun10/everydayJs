@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/wuchuck/.nvm/versions/node/v8.6.0/bin/node /usr/local/bin/yarn run start
+
+PATH: 
+  /Users/wuchuck/.nvm/versions/node/v8.6.0/bin:/Users/wuchuck/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.2.0
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "scripts": {
+      "start": "http-server -a 0.0.0.0 -p 8000",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/wuchuck/Desktop/code/sunsun10/cssStudy/package.json: Unexpected token } in JSON at position 66
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
+      at <anonymous>
